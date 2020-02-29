@@ -3,7 +3,7 @@
     "document_id": "f1nW2-1XLC87unuI3QV_",
     "original_document_id": "f1nW2-1XLC87unuI3QV_",
     "version": "23",
-    "lastChanged": "1583015440712",
+    "lastChanged": "1583018262308",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -30,7 +30,8 @@
             "collapsedList": [
                 [
                     [
-                        "2D"
+                        "2D",
+                        "Unlit"
                     ],
                     [
                         "2D",
@@ -759,6 +760,13 @@
                         "Lens Controller"
                     ],
                     [
+                        "Textures"
+                    ],
+                    [
+                        "Textures",
+                        "white"
+                    ],
+                    [
                         "Tween"
                     ],
                     [
@@ -869,7 +877,11 @@
         },
         "InspectorUiComponent": {
             "collapsedList": [
-                ""
+                [
+                    "1583014462305325:574929",
+                    "1583014505671077:602857",
+                    "1583018161675456:889125"
+                ]
             ]
         },
         "UiComponent": {
@@ -1927,6 +1939,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "409",
+                    "uid": "1583015942943637:760677",
+                    "name": "Files\/File71",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "410",
+                    "uid": "1583015943093225:760708",
+                    "name": "Files\/File73.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2303,6 +2331,22 @@
                 {
                     "k": "70",
                     "v": "Files\/File70.js"
+                },
+                {
+                    "k": "71",
+                    "v": "Files\/File71"
+                },
+                {
+                    "k": "72",
+                    "v": "Files\/File72.lsmat"
+                },
+                {
+                    "k": "73",
+                    "v": "Files\/File73.png"
+                },
+                {
+                    "k": "74",
+                    "v": "Files\/File74.png"
                 }
             ]
         },
@@ -2422,6 +2466,18 @@
                     {
                         "k": "152",
                         "v": "Lens Controller.js"
+                    },
+                    {
+                        "k": "153",
+                        "v": "Textures"
+                    },
+                    {
+                        "k": "154",
+                        "v": "Textures\/white.png"
+                    },
+                    {
+                        "k": "155",
+                        "v": "2D\/Unlit.lsmat"
                     }
                 ],
                 "hashes": [
@@ -2495,7 +2551,7 @@
                     },
                     {
                         "k": "127",
-                        "v": "1c7262f8c34d25d504fe5b6a192a1908"
+                        "v": "68e408171798f5d9ca40fa8ed3825a47"
                     },
                     {
                         "k": "128",
@@ -2563,21 +2619,29 @@
                     },
                     {
                         "k": "152",
-                        "v": "dc076eeeaab3b32dcd541e5f3f87ae84"
+                        "v": "ddcac907929a988381fc6e087bd674a0"
+                    },
+                    {
+                        "k": "154",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
+                    },
+                    {
+                        "k": "155",
+                        "v": "98299318b75b89f11c29688692939156"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-02-29T14:30:35",
+                        "lastModified": "2020-02-29T15:17:16",
                         "name": "Public",
-                        "hash": "c0c8f06200de00a11560e62f3f09a9ca",
+                        "hash": "2e5d8829691e1cfa80dfa0c5b3e5b729",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-02-29T14:24:19",
+                                "lastModified": "2020-02-29T14:57:30",
                                 "name": "2D",
-                                "hash": "bced9a85a9aadd594cfeb6bb7e52293e",
+                                "hash": "e8b9e63d74087b063f87e544feae3b0d",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -2588,9 +2652,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-02-29T14:24:14",
+                                        "lastModified": "2020-02-29T14:57:26",
                                         "name": "halfTone_transition.png",
-                                        "hash": "1c7262f8c34d25d504fe5b6a192a1908",
+                                        "hash": "68e408171798f5d9ca40fa8ed3825a47",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-02-29T14:40:43",
+                                        "name": "Unlit.lsmat",
+                                        "hash": "98299318b75b89f11c29688692939156",
                                         "children": ""
                                     }
                                 ]
@@ -2654,10 +2725,32 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-02-29T14:30:35",
+                                "lastModified": "2020-02-29T15:17:16",
                                 "name": "Lens Controller.js",
-                                "hash": "dc076eeeaab3b32dcd541e5f3f87ae84",
+                                "hash": "ddcac907929a988381fc6e087bd674a0",
                                 "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-02-29T14:39:03",
+                                "name": "Textures",
+                                "hash": "6507c3cb5745a68eb0fa565cf851c447",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-02-29T14:39:03",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-02-29T14:39:03",
+                                        "name": "white.png",
+                                        "hash": "0c8dcfed2f50bb81ac5276a14967c005",
+                                        "children": ""
+                                    }
+                                ]
                             },
                             {
                                 "isFolder": "true",
@@ -2861,6 +2954,19 @@
                                 "originalId": "49",
                                 "publicId": "127",
                                 "source": "C:\/Users\/Westo\/Documents\/GitHub\/711Snapchat\/2D\/halfTone_transition.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Unlit",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "409",
+                                "dependency": "0",
+                                "uid": "1583015942943637:760677",
+                                "fileId": "71",
+                                "originalId": "72",
+                                "publicId": "155",
+                                "source": "",
                                 "additional": ""
                             }
                         ]
@@ -4704,19 +4810,42 @@
                         "publicId": "152",
                         "source": "C:\/Users\/Westo\/AppData\/Local\/Temp\/Lens Studio-ZSGzHJ\/\/system\/\/emergencyFiles\/emergencyJs.js",
                         "additional": ""
+                    },
+                    {
+                        "name": "Textures",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "153",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "white",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "410",
+                                "dependency": "0",
+                                "uid": "1583015943093225:760708",
+                                "fileId": "73",
+                                "originalId": "74",
+                                "publicId": "154",
+                                "source": "C:\/Users\/Westo\/AppData\/Local\/Temp\/Lens Studio-ZSGzHJ\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1583015342000860:678206",
-                        "path_list": [
-                            "Script"
-                        ]
-                    }
+                "objects": [
+                    "1583013820628898:560572"
                 ]
             }
         },
